@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+main {
+    display: flex;
+}
+
+main section {
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(217, 217, 217, 0.8);
+}
+
+.container-seta {
+    position: absolute;
+    top: 2.6vh;
+    left: 1.3vw;
+    height: 45px;
+    width: 45px;
+}
+
+.imagem-seta {
+    height: 100%;
+}
+
+.container-logo-start {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: 500px;
+}
+
+.imagem-start {
+    height: 60%;
+    width: 100%;
+}
+
+.container-logo-start p {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3em;
+    width: 90%;
+    height: 40%;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.container-background {
+    height: 100vh;
+    width: 50vw;
+}
+
+.background-imagem {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100px;
+    width: 440px;
+    height: 720px;
+    background-color: #FFFFFF;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.banner-perfil {
+    width: 440px;
+    height: 12vh;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.icon-perfil {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    margin-top: -60px;
+}
+
+.icon {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.caixa-nome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    color: #676767;
+}
+
+.container-form {
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.input-all {
+    width: 100%;
+    height: 25px;
+    border: none;
+    border-bottom: 2px solid #949494;
+    padding: 10px;
+}
+
+.input-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+.input-form label {
+    position: absolute;
+    display: flex;
+    padding: 3px 0px;
+    color: #676767;
+}
+
+.email {
+    padding: 0px 0px 0px 45px;
+}
+
+.senha {
+    padding: 0px 0px 0px 51px;
+}
+
+.tel {
+    padding: 0px 0px 0px 65px;
+}
+
+.cpf {
+    padding: 0px 0px 0px 37px;
+}
+
+.rg {
+    padding: 0px 0px 0px 28px;
+}
+
+.ocup {
+    padding: 0px 0px 0px 78px;
+}
+
+.ende {
+    padding: 0px 0px 0px 73px;
+}
+
+.botao-container {
+    margin-top: 45px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 35px;
+    width: 100%;
+    height: 35px;
+    background-color: #001860;
+}
+
+.botao-container > a {
+    color: white;
+}
+
+.div-entrar {
+    margin-top: 15px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.redes-sociais img {
+    height: 100%;
+}
+
+.redes-sociais-escrita {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.redes-sociais-escrita p {
+    color: #070330;
+}

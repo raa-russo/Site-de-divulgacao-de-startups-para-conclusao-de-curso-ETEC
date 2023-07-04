@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    border: 0;
+    text-decoration: none;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: inherit;
+    background-color: #EDEDED;
+    color: #070330;
+}
+
+header {
+    background-color: rgb(55, 77, 132);
+    display: flex;
+    justify-content: space-evenly;
+    height: 6%;
+}
+
+#headerIcon {
+    margin: 0.2vh 0 0 9vw;
+
+}
+
+#logo {
+    height: 4.5vh;
+    margin: 0.9vh 0 0 -15.5vw;
+}
+
+/* barra de pesquisa */
+
+#navlist {
+    background-color: #0074D9;
+    position: absolute;
+    width: 100vw;
+}
+
+#navlist a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.search {
+    display: inline-flex;
+}
+
+.navlist-right {
+    float: right;
+}
+
+#navlist a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.search button {
+    margin-left: -1.5vw;
+    background-color: #ffffff;
+    color: #f2f2f2;
+    float: right;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.search input[type=text] {
+    width: 27vw;
+    height: 3.5vh;
+    border-radius: 25px;
+    border: none;
+}
+
+.search {
+    float: right;
+    margin: 7px;
+}
+
+/* container 1 */
+
+#cont1Topico {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0.855em;
+    color: #070330;
+    margin: 5vh 0 2vh 0;
+    text-shadow: rgba(0, 0, 0, 0.404) 1px 3px 2px;
+}
+
+.cont1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bannerCont1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 21vw;
+}
+.bannerCont3 {
+    display: flex;
+    margin-left: 1vw;
+}
+
+.banners1 {
+    height: 60vh;
+    width: 18vw;
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 1vw;
+}
+
+#ftBanner1 {
+    background-image: url(/img/pp/banner1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ftBanner2 {
+    background-image: url(/img/pp/banner3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#ftBanner3 {
+    background-image: url(/img/pp/banner2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imgBanner {
+    height: 35vh;
+    width: 18vw;
+    border-radius: 20px 20px 0 0;
+}
+
+#cont1Temas {
+    color: #070330;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 1vh 0 2vh 0;
+}
+
+#descricaoCont1 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 1vh;
+    padding: 0 3px 0 3px;
+}
+
+.buttonCont1 {
+    background-color: #070330;
+    color: white;
+    border-radius: 15px;
+    width: 8vw;
+    height: 3vh;
+}
+.buttonCont1:hover {
+    background-color: #001860; 
+    height: 24px;
+}
+#buttonAmigos:hover {
+    background-color: #001860; 
+    height: 34px;
+}
+
+
+/* containers Direita */
+
+.friends {
+    display: block;
+    justify-content: space-evenly;
+}
+
+.fundoFriends {
+    background-color: #e2e2e2;
+    height: 13vh;
+    width: 20vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4px;
+    border-radius: 20px;
+    margin-bottom: 1vh;
+}
+
+.ftPerfilCont1 {
+    height: 10vh;
+    width: 5vw;
+    border-radius: 50%;
+}
+
+#imgPerfil1 {
+    background-image: url(/img/pp/rolex-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#categoriaCont1 {
+    color: #070330A6;
+    font-size: 12px;
+    text-align: center;
+    margin: 0.5vh 0 0.5vh 0;
+}
+
+#descricaoDirCont1 {
+    margin: 3vh 0 0 0;
+    width: 12vw;
+}
+
+#nomeCont1 {
+    font-weight: 500;
+}
+
+.botoesDirCont1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buttonAmigos {
+    background-color: #070330;
+    color: white;
+    border-radius: 20px;
+    width: 9vw;
+    padding: 4px;
+    margin-top: 2vh;
+    font-size: 16px;
+}
+
+#reticencias {
+    border: #777777 2px solid;
+    border-radius: 20px;
+    margin: 2vh 0 0 -3vw;
+    height: 3.8vh;
+    width: 4vw;
+}
+
+/**/
+.categoriasPrincipaisbuttons {
+    margin-right: 5px;
+    background-color: #D9D9D980;
+    border-radius: 20px;
+    width: max-content;
+    min-width: 2vw;
+    font-size: 14px;
+    padding: 3px;
+    font-weight: 500;
+    color: #001860;
+    text-align: center;
+    box-shadow: #b3b3b3 1px 3px 3px;
+}
+.categoriasPrincipais {
+    display: flex;
+    margin: 6vh auto -2vw auto;
+    justify-content: center;
+    align-items: center;
+}
+#divisoriaCont2 {
+    width: 70vw;
+    margin: 6vh auto 1.5vh auto;
+    height: 1px;
+    background-color: #001860;
+}
+.titleCont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    letter-spacing: 0.835em;
+    font-weight: 400;
+}
+
+/*CARDS CONTEUDO 3*/
+.cardsCont3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 3vh auto;
+    width: 57vw;
+    border-radius: 20px;
+}
+
+#imgCard1 {
+    background-image: url(/img/pp/logoApple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.esqCardCont3 {
+    margin: 1.5vh 0.75vw;
+}
+
+.imgCards {
+    width: 8vw;
+    height: 16vh;
+    border-radius: 20px;
+}
+
+.categoriasCards {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0.5vh;
+}
+
+.midCardCont3 {
+    margin: 2vh 0;
+    width: 36vw;
+}
+
+.titleCard {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.descricaoCards {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.categoriasCardCont3 {
+    display: flex;
+    margin-top: 2vh;
+}
+
+.categoriasCardCont3 * {
+    background-color: #D9D9D980;
+    border-radius: 20px;
+    width: max-content;
+    min-width: 2vw;
+    font-size: 13px;
+    padding: 2px;
+    font-weight: 400;
+    color: #001860;
+    text-align: center;
+}
+
+.categoriasCardCont3 p {
+    margin-right: 0.5vw;
+}
+
+/*avaliações*/
+.rating {
+    background-image: url(/img/pp/fullStar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2vh;
+    width: 1vw;
+    margin-left: 0.2vw;
+}
+
+.half_rating {
+    background-image: url(/img/pp/halfStar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2vh;
+    width: 1vw;
+    margin-left: 0.2vw;
+}
+
+/* botao carregar mais*/
+.buttonCarregarMais {
+    text-align: center;
+}
+#buttonCarregarMais {
+    border: 2px solid #070330;
+    border-radius: 5px;
+    padding: 10px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 5vh auto 25vh auto;
+}
+#buttonCarregarMais:hover {
+    background-color: #001860; 
+    color: white;
+    border: white solid 1px;
+}
+/*hovers*/
+button:hover {
+    cursor: pointer;
+}
+footer {
+    background-color: #070330;
+    height: 16vh;
+}

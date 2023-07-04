@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: inherit;
+}
+
+header {
+    height: 65px;
+    background: linear-gradient(0deg, #213466, #213466), linear-gradient(0deg, #0D0A18, #0D0A18), linear-gradient(270deg, rgba(25, 57, 133, 0.79) 5.65%, #0C0917 64.94%);
+}
+
+header .limiteHeader {
+    margin: auto;
+    max-width: 1400px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .limiteHeader .logoStart {
+    height: 35px;
+    width: 170px;   
+}
+
+header .limiteHeader .logoStart > img{
+    height: 100%;
+    width: 100%;
+}
+
+header .limiteHeader .navegacao {
+    height: 100%;
+    display: flex;
+    align-items: center;    
+}
+
+header .limiteHeader .navegacao .login {
+    padding: 10px 28px;   
+    border-radius: 20px;
+    color: #faefef;
+    background-color: rgb(47, 144, 239); 
+    font-size: 1.1em;
+}
+
+header .limiteHeader .navegacao .login:hover {  
+    background-color: rgb(18, 117, 216); 
+    color: rgb(255, 255, 255);
+}
+
+#iconeLogin {
+    margin-right: 15px;
+}
+
+/* CONTAINER 1 */
+
+.primeiraSecao {
+    background-image: url(../img/imagensLandPage/backgroundLandPage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 675px;
+}
+
+.primeiraSecao .containerConteudoStart { 
+    margin: auto;
+    height: 100%;
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+}
+
+.primeiraSecao .containerConteudoStart .conteudoStart { 
+    height: 265px;
+}
+
+.primeiraSecao .containerConteudoStart .conteudoStart > h1 {
+    text-transform: uppercase;
+    font-size: 2.2em;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 15);
+}
+
+.primeiraSecao .containerConteudoStart .conteudoStart > p {
+    font-size: 30px;
+    text-align: justify;
+    max-width: 950px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.primeiraSecao .containerConteudoStart .conteudoStart > a {
+    display: inline-block;
+    padding: 10px 45px;
+    font-size: 1.1em;
+    color: #f8f1f1;
+    background: linear-gradient(90deg, #0D0A19 18.39%, #1E3875 50%);
+    border-radius: 20px;
+}
+
+.primeiraSecao .containerConteudoStart .conteudoStart > a:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #211a3d 20%, #29417a 50%);
+}
+
+/*  CONTAINER 2 */
+
+.segundaSecao {
+    height: 300px;
+}
+
+.segundaSecao .containerConteudoSegundaSecao {
+    margin: auto;
+    display: flex;
+    max-width: 1550px;
+    height: 100%;
+}
+
+.segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao {
+    max-width: 775px;
+    height: 100%;
+}
+
+.segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > p {
+    margin-top: 50px;
+    font-size: 1.85em;
+    color: #0E0D1D;
+}
+
+.segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > a {
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 1.6em;
+    color: #f5efef;
+    background-color: rgb(55, 77, 132);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > a:hover {
+    color: #fff;
+    background-color: rgb(43, 86, 196);
+}
+
+.segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao {
+    max-width: 775px;
+    height: 100%;
+}
+
+.segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao > p {
+    margin-top: 50px;
+    font-size: 1.5em;
+    color: #0E0D1D;
+}
+
+/*  CONTAINER 3 */
+
+.containerCasosSucesso {
+    background-color: #0D0B1A;
+    color: white;
+}
+
+.containerCasosSucesso > h2 {
+    text-align: center;
+    font-size: 2.1em;
+    padding: 40px;
+}
+
+.containerCasosSucesso .feedback > div .imagemPerfil {
+    height: 30vh;
+    width: 15vw;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.containerCasosSucesso .feedback {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 7vw 0 7vw;
+    text-align: center;
+}
+
+.containerCasosSucesso .feedback .depoimento {
+    margin-top: 10vh;
+    width: 60vw;
+    font-size: 20px;
+}
+
+.containerCasosSucesso a {
+    display: inline-block;
+    padding: 8px 25px;
+    border-radius: 5px;
+    color: rgb(243, 237, 237);
+    background: rgb(28, 52, 112);
+    font-size: 1.2em;
+    margin-bottom: 4vh;
+}
+
+.containerCasosSucesso a:hover {
+    color: white;
+    background: rgb(44, 70, 138);
+}
+
+.nome {
+    font-size: 2em;
+    font-weight: 500;
+    padding: 12px 0 10px 0;
+}
+
+/* container4 */
+
+.container4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 7vw 0 7vw;
+    
+}
+
+.titleCont4 {
+    text-align: center;
+    color: #374D84;
+    margin-top: 6vh;
+    font-size: 32px;
+}
+
+.topicoCont4 {
+    font-size: 28px;
+    font-weight: 500;
+    color: #374D84;
+    margin-bottom: 3vh;
+}
+
+div#divisoria {
+    background-color: rgb(55, 77, 132);
+    width: 20px;
+    height: 40vh;
+    margin: 15vh 3vw 0 3vw;
+    border-radius: 35px;
+}
+
+.rightTitle {
+    text-align: end;
+    color: #374D84;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 3vh;
+
+}
+
+.descricaoDir{
+    text-align: end;
+}
+
+.blocos {
+    display: flex;
+    justify-content: left;
+    margin-top: 13vh;
+}
+
+/*icons*/
+
+.iconsDiv {
+    margin-top: -4.5vh;
+    padding: 20px;
+}
+
+footer {
+    margin-top: 10vh;
+    height: 300px;
+    background-color: #0D0A19;
+    display: flex;
+    color: white;
+}
+
+footer > section {
+    margin: auto;
+    width: 50vh;
+    color: white;
+}
+
+footer .footerEsquerda > img {
+    height: 45px;
+    width: 185px;
+    margin-bottom: 5px;
+}
+
+footer .footerEsquerda .contato {
+    font-size: 1.3em;
+}
+
+footer .footerDireita > h3 {
+    font-size: 1.55em;
+    margin-bottom: 5px;
+}
+
+footer .footerDireita > p {
+    font-size: 1.15em;
+    margin-bottom: 3.5px;
+}
+
+#btnTop {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(28, 52, 112, .8);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seta {
+    display: inline-block;
+    border: solid #fff;
+    border-width: 0 7px 7px 0;
+    padding: 5px;
+}
+
+.posicao {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}

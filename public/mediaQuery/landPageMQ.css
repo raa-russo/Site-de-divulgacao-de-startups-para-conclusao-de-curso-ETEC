@@ -1,0 +1,401 @@
+@media screen and (max-width: 600px) {
+    header .limiteHeader {
+        max-width: 432px;
+    }
+
+    .primeiraSecao .containerConteudoStart { 
+        max-width: 350px;
+    }
+
+    .primeiraSecao .containerConteudoStart .conteudoStart > h1 {
+        font-size: 1.8em;
+    }
+
+    .primeiraSecao .containerConteudoStart .conteudoStart > p {
+        font-size: 1em;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao {
+        max-width: 450px;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao {
+        max-width: 225px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao {
+        max-width: 225px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > p {
+        font-size: 1em;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > a {
+        font-size: .9em;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao > p {
+        font-size: .9em;
+    }
+
+    .containerCasosSucesso > h2 {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+
+    .containerCasosSucesso .feedback > div .imagemPerfil {
+        height: 10vh;
+    }
+
+    .containerCasosSucesso .feedback .depoimento {
+        font-size: .7em;
+        margin-top: 2vh;
+    }
+
+    .containerCasosSucesso a {
+        display: none;
+    }
+    
+    .nome {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
+
+    .titleCont4 {
+        margin-top: 3vh;
+        font-size: 1.5em;
+    }
+
+    .topicoCont4 {
+        font-size: 1em;
+    }
+
+    div#divisoria {
+        height: 80vh;
+        margin: 10vh 2.5vw 0 2.5vw;
+    }
+
+    .rightTitle {
+        font-size: 1em;
+        margin-bottom: 2vh;
+    }
+
+    footer > section {
+        text-align: center;
+    }
+
+    footer .footerEsquerda > img {
+        height: 30px;
+        width: 145px;
+    }
+    
+    footer .footerDireita > h3 {
+        font-size: 1.25em;
+    }
+    
+    footer .footerDireita > p {
+        font-size: .9em;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    header .limiteHeader {
+        max-width: 600px;
+    }
+
+    .primeiraSecao .containerConteudoStart { 
+        max-width: 500px;
+    }
+
+    .primeiraSecao .containerConteudoStart .conteudoStart > h1 {
+        font-size: 1.8em;
+    }
+
+    .primeiraSecao .containerConteudoStart .conteudoStart > p {
+        font-size: 1.2em;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao {
+        max-width: 650px;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao {
+        max-width: 325px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao {
+        max-width: 325px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > p {
+        font-size: 1.3em;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > a {
+        font-size: 1em;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao > p {
+        font-size: 1em;
+    }
+    
+    .containerCasosSucesso > h2 {
+        font-size: 1.3em;
+        padding: 15px;
+    }
+
+    .containerCasosSucesso .feedback > div .imagemPerfil {
+        height: 13vh;
+    }
+
+    .containerCasosSucesso .feedback .depoimento {
+        font-size: .75em;
+        margin-top: 3vh;
+    }
+
+    .containerCasosSucesso a {
+        display: none;
+    }
+    
+    .nome {
+        font-size: 1.1em;
+        margin-bottom: 10px;
+    }
+
+    .titleCont4 {
+        margin-top: 4vh;
+        font-size: 1.6em;
+    }
+
+    .topicoCont4 {
+        font-size: 1.1em;
+    }
+
+    div#divisoria {
+        height: 60vh;
+        margin: 10vh 2.5vw 0 2.5vw;
+    }
+
+    .rightTitle {
+        font-size: 1.1em;
+        margin-bottom: 2vh;
+    }
+
+    footer > section {
+        text-align: center;
+    }
+
+    footer .footerEsquerda > img {
+        height: 35px;
+        width: 160px;
+    }
+    
+    footer .footerDireita > h3 {
+        font-size: 1.35em;
+    }
+    
+    footer .footerDireita > p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header .limiteHeader {
+        max-width: 768px;
+    }
+
+    .primeiraSecao .containerConteudoStart { 
+        max-width: 700px;
+    }
+
+    .primeiraSecao .containerConteudoStart .conteudoStart > h1 {
+        font-size: 2.1em;
+    }
+    
+    .primeiraSecao .containerConteudoStart .conteudoStart > p {
+        font-size: 1.45em;
+        max-width: 850px;
+    }
+    
+    .primeiraSecao .containerConteudoStart .conteudoStart > a { 
+        font-size: 1em;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao {
+        max-width: 850px;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao {
+        max-width: 425px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao {
+        max-width: 425px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > p {
+        font-size: 1.4em;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > a {
+        font-size: 1.1em;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao > p {
+        font-size: 1.1em;
+    }
+
+    .containerCasosSucesso > h2 {
+        font-size: 1.5em;
+        padding: 20px;
+    }
+
+    .containerCasosSucesso .feedback > div .imagemPerfil {
+        height: 15vh;
+    }
+
+    .containerCasosSucesso .feedback .depoimento {
+        font-size: .85em;
+        margin-top: 4.5vh;
+    }
+    
+    .containerCasosSucesso a {
+        display: none;
+    }
+    
+    .nome {
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+    
+    .titleCont4 {
+        margin-top: 6vh;
+        font-size: 1.8em;
+    }
+    
+    .topicoCont4 {
+        font-size: 1.3em;
+    }
+
+    div#divisoria {
+        height: 50vh;
+        margin: 10vh 2.5vw 0 2.5vw;
+    }
+    
+    .rightTitle {
+        font-size: 1.3em;
+        margin-bottom: 1vh;
+    }
+
+    footer > section {
+        text-align: center;
+    }
+    
+    footer .footerDireita > h3 {
+        font-size: 1.45em;
+    }
+    
+    footer .footerDireita > p {
+        font-size: 1em;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    header .limiteHeader {
+        max-width: 992px;
+    }
+
+    .primeiraSecao .containerConteudoStart { 
+        max-width: 900px;
+    }
+    
+    .primeiraSecao .containerConteudoStart .conteudoStart > p {
+        font-size: 1.6em;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao {
+        max-width: 1050px;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao {
+        max-width: 525px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao {
+        max-width: 525px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > p {
+        font-size: 1.6em;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao > a {
+        font-size: 1.3em;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao > p {
+        font-size: 1.3em;
+    }
+
+    .containerCasosSucesso .feedback > div .imagemPerfil {
+        height: 20vh;
+    }
+
+    .containerCasosSucesso .feedback .depoimento {
+        margin-top: 4vh;
+        font-size: 1.25em;
+    }
+    
+    .containerCasosSucesso a {
+        padding: 7px 16px;
+    }
+    
+    .nome {
+        font-size: 1.6em;
+    }
+    
+    div#divisoria {
+        height: 50vh;
+        margin: 12vh 2.5vw 0 2.5vw;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    header .limiteHeader {
+        max-width: 1200px;
+    }
+
+    .primeiraSecao .containerConteudoStart { 
+        max-width: 1100px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao {
+        max-width: 1250px;
+    }
+    
+    .segundaSecao .containerConteudoSegundaSecao .esquerdaSegundaSecao {
+        max-width: 625px;
+    }
+
+    .segundaSecao .containerConteudoSegundaSecao .direitaSegundaSecao {
+        max-width: 625px;
+    }
+
+    .containerCasosSucesso .feedback > div .imagemPerfil {
+        height: 25vh;
+    }
+
+    .containerCasosSucesso .feedback .depoimento {
+        margin-top: 7vh;
+        font-size: 1.25em;
+    }
+    
+    .containerCasosSucesso a {
+        padding: 8px 20px;
+    }
+    
+    .nome {
+        font-size: 1.8em;
+    }
+}

@@ -1,0 +1,85 @@
+@media only screen and (max-width: 600px) {
+    body {
+        background-image: url(../img/imagensLoginEmpresa/backgroundEmpresa.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+
+    main .sectionEsquerda {
+        display: none;
+    }
+
+    main .sectionDireita {
+        width: 100vw;
+    }
+
+    main .sectionDireita .containerRegistro {
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+
+    main .sectionDireita .containerRegistro {
+        max-width: 400px;
+        height: 495px;
+    }
+
+    main .sectionDireita .containerRegistro .bannerInvestidor {
+        display: none;
+    }
+    
+    main .sectionDireita .containerRegistro .profileInvestidor {
+        display: none;
+    }
+
+    main .sectionDireita .containerRegistro > h3 {
+        font-size: 1.25em;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    body {
+        background-image: url(../img/imagensLoginEmpresa/backgroundEmpresa.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+    
+    main .sectionDireita .containerRegistro {
+        width: 400px;
+    }
+
+    main .sectionEsquerda {
+        display: none;
+    }
+
+    main .sectionDireita {
+        width: 100vw;
+    }
+
+    main .sectionDireita .containerRegistro {
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: url(../img/imagensLoginEmpresa/backgroundEmpresa.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+        background-size: cover;
+    }
+
+    main .sectionEsquerda {
+        display: none;
+    }
+
+    main .sectionDireita {
+        width: 100vw;
+    }
+
+    main .sectionDireita .containerRegistro {
+        box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    }
+}
